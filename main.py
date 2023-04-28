@@ -28,7 +28,7 @@ def execute(request: SimpleText, ray: OpenfabricExecutionRay) -> SimpleText:
     for text in request.text:
         # TODO Add code here
         # Create a new chat bot named Charlie
-        chatbot = ChatBot('Charlie')
+        chatbot = ChatBot('Scientific Chatbot')
 
         trainer = ListTrainer(chatbot)
 
